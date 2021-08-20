@@ -1,0 +1,63 @@
+
+# Site settings
+title: Rotaract Club of Banashankari
+subtitle: "Unite . Rise . Empower"
+url: "https://rcob3190.org" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+timezone: Asia/Kolkata
+
+description: Z
+og_img: /images/ogimage.png
+
+# Theme Colour: ff9000
+# Build settings
+markdown: kramdown
+# highlighter: rouge
+permalink: news/:year/:month/:day/:title/
+paginate: 9
+paginate_path: news/page-:num/
+
+# Google analytics
+google_tracking_id: "G-LYQWP4N6TE"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
+
+collections:
+  causes:
+    output: true
+    permalink: /causes/:path/
+  events:
+    output: true
+    permalink: /events/:path/
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+  
+# Archives
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    category: '/news/:name/'
+    year: '/news/:year/'
+    month: '/news/:year/:month/'
+    day: '/news/:year/:month/:day/'
+    tag: '/news/tag-:name/'
+
+include:
+  - _redirects
+
+exclude:
+  - README.md

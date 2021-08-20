@@ -1,0 +1,29 @@
+        <!-- Testimonial Start -->
+        <div class="testimonial">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Testimonial</p>
+                    <h2>What people are talking about our charity activities</h2>
+                </div>
+                <div class="owl-carousel testimonials-carousel">
+                    {% for testimonial in site.data.info.testimonials %}
+                    <div class="testimonial-item">
+                        <div class="testimonial-profile">
+                            <img src="{{testimonial.image | relative_url}}" alt="{{testimonial.name}}">
+                            <div class="testimonial-name">
+                                <h3>{{testimonial.name}}</h3>
+                                <p>{{testimonial.affiliation}}</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-text">
+                            <p>
+                                {{testimonial.message}}
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->

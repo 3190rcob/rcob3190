@@ -1,0 +1,39 @@
+        <!-- Team Start -->
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Star Rotaractors</p>
+                    <h2>Awesome folks behind our activities</h2>
+                </div>
+                <div class="row justify-content-around">
+                    {% for member in site.data.starrotaractors.members %}
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="{{member.image | relative_url}}" alt="{{member.name}}">
+                            </div>
+                            <div class="team-text">
+                                <h2>{{member.name}}</h2>
+                                <p>{{member.role}}</p>
+                                <div class="team-social">
+                                    {% if member.social.twitter != "" %}
+                                    <a href="{{member.social.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    {% endif %}
+                                    {% if member.social.facebook != "" %}
+                                    <a href="{{member.social.facebook}}" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    {% endif %}
+                                    {% if member.social.linkedin != "" %}
+                                    <a href="{{member.social.linkedin}}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                    {% endif %}
+                                    {% if member.social.instagram != "" %}
+                                    <a href="{{member.social.instagram}}" target="_blank"><i class="fab fa-instagram"></i></a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->

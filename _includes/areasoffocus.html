@@ -1,0 +1,25 @@
+        <!-- Service Start -->
+        <div class="service">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>{{site.data.info.areasoffocus.title}}</p>
+                    <h2>{{site.data.info.areasoffocus.headline}}</h2>
+                </div>
+                <div class="row justify-content-around">
+                    {% for focus in site.data.info.areasoffocus.areas %}
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="{{focus.icon}}"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>{{focus.title}}</h3>
+                                <p>{{focus.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->

@@ -1,0 +1,59 @@
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact">
+                            <h2>Contact Us</h2>
+                            <p><i class="fa fa-map-marker-alt"></i>{{site.data.info.location}}</p>
+                            <p><i class="fa fa-phone-alt"></i>{{site.data.info.phone}}</p>
+                            <p><i class="fa fa-envelope"></i>{{site.data.info.email}}</p>
+                            <div class="footer-social">
+                                {% for social in site.data.info.site_social %}
+                                {% if social[1] %}
+                                <a class="btn btn-custom" href="{{ social[1] }}" target="_blank"><i class="fab fa-{{ social[0] }}"></i></a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+                            <h2>Popular Links</h2>
+                            {% for item in site.data.info.fnav.popularlinks %}
+                            <a href="{% if item.url contains "://" %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" {% if item.url contains "://" %}target="_blank"{% endif %}>{{item.title}}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-link">
+                            <h2>Get to Know</h2>
+                            {% for item in site.data.info.fnav.gettoknow %}
+                            <a href="{% if item.url contains "://" %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}" {% if item.url contains "://" %}target="_blank"{% endif %}>{{item.title}}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-newsletter">
+                            <h2>Newsletter</h2>
+                            <form>
+                                <input class="form-control" placeholder="Email goes here">
+                                <button class="btn btn-custom">Submit</button>
+                                <label>Don't worry, we don't spam!</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="https://www.instagram.com/rcob_3190/" target="_blank">Rotaract Club of Banashankari</a>, All Right Reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><i class="fa fa-paint-brush"></i> <a href="https://htmlcodex.com" target="_blank">HTML Codex</a> - <i class="fa fa-code"></i> <a href="https://zeospec.com/" target="_blank">ZeoSpec</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->

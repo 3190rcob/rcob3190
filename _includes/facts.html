@@ -1,0 +1,19 @@
+        <!-- Facts Start -->
+        <div class="facts" data-parallax="scroll" data-image-src="{{site.data.info.factcounter.image | relative_url}}">
+            <div class="container">
+                <div class="row">
+                    {% for fact in site.data.info.factcounter.facts %}
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="{{fact.icon}}"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-{{fact.dollar_plus}}" data-toggle="counter-up">{{fact.value}}</h3>
+                                <p>{{fact.text}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->

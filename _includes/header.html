@@ -1,0 +1,62 @@
+        <!-- Top Bar Start -->
+        <div class="top-bar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="top-bar-left">
+                            <div class="text">
+                                <i class="fa fa-phone-alt"></i>
+                                <p>{{site.data.info.phone}}</p>
+                            </div>
+                            <div class="text">
+                                <i class="fa fa-envelope"></i>
+                                <p>{{site.data.info.email}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="top-bar-right">
+                            <div class="social">
+                                {% for social in site.data.info.site_social %}
+                                {% if social[1] %}
+                                <a href="{{ social[1] }}" target="_blank"><i class="fab fa-{{ social[0] }}"></i></a>
+                                {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a href="{{site.baseurl}}/" class="navbar-brand">RCoB</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        
+                        {% for item in site.data.info.nav %}
+                            {% if item.subnav %}
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{item.title}}</a>
+                                    <div class="dropdown-menu">
+                                        {% for sitem in item.subnav %}
+                                        <a href="{{sitem.url}}" class="dropdown-item">{{sitem.title}}</a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            {% else %}
+                                <a href="{{item.url}}" class="nav-item nav-link {% if item.url == page.url %}active{% endif %}">{{item.title}}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->

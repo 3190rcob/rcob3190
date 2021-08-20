@@ -1,0 +1,24 @@
+---
+layout: default
+---
+        <!-- Page Header Start -->
+        <div class="page-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>{{page.title}}</h2>
+                    </div>
+                    <div class="col-12">
+                        {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+                        <a href="{{site.baseurl}}/">Home</a>
+                        <a href="{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{page.title}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+  
+
+
+
+        {{content}}s

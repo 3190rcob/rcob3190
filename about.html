@@ -1,0 +1,15 @@
+---
+layout: page
+title: About Us
+permalink: about
+---
+
+{% include about.html %}
+
+{% include facts.html %}
+
+{% include team.html %}
+        
+{% if site.data.info.testimonials.size > 0 %}
+{% include testimonial.html %}
+{% endif %}
