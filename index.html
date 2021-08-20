@@ -17,7 +17,7 @@ layout: default
                             {{item.brief}}
                         </p>
                         <div class="carousel-btn">
-                            <a class="btn btn-custom" href="">{{item.buttons.text1}}</a>
+                            <a class="btn btn-custom" href="{% if item.buttons.target1 contains "://" %}{{ item.buttons.target1 }}{% else %}{{ item.buttons.target1 | relative_url }}{% endif %}" {% if item.buttons.target1 contains "://" %}target="_blank"{% endif %}>{{item.buttons.text1}}</a>
                             <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/{{item.buttons.vidid}}?rel=0&controls=0" data-target="#videoModal">{{item.buttons.vidtext}}</a>
                         </div>
                     </div>
