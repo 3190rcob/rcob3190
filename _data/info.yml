@@ -18,18 +18,6 @@ nav:
     url: /events
   - title: Initiatives 
     url: /initiatives
-  - title: Dropdown
-    subnav:
-      - title: Detail Page 
-        url: single.html
-      - title: What We Do
-        url: service.html
-      - title: Meet The Team
-        url: team.html
-      - title: Donate Now
-        url: donate.html
-      - title: Become A Volunteer
-        url: volunteer.html
   - title: Contact
     url: /contact
 

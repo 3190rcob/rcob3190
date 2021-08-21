@@ -46,11 +46,11 @@ jekyll-archives:
   enabled: all
   layout: archive
   permalinks:
-    category: '/news/:name/'
-    year: '/news/:year/'
-    month: '/news/:year/:month/'
-    day: '/news/:year/:month/:day/'
-    tag: '/news/tag-:name/'
+    category: '/initiatives/:name/'
+    year: '/initiatives/:year/'
+    month: '/initiatives/:year/:month/'
+    day: '/initiatives/:year/:month/:day/'
+    tag: '/initiatives/tag-:name/'
 
 include:
   - _redirects
