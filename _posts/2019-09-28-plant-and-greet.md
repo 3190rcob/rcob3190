@@ -3,7 +3,7 @@ layout: post
 title: Plant and Greet!
 date: 2019-09-28
 image: /img/blog-2.jpg
-author: rbe
+author: rcob
 categories:
   - Community-Service
   - Club-Service

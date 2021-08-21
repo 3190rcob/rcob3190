@@ -3,7 +3,7 @@ layout: post
 title:  "Breakfast with Easterners"
 date:   2019-07-07
 image: /img/blog-2.jpg
-author: rbe
+author: rcob
 categories: [Club-Service]
 tags: [hosting]
 description: The 49th installation of Rotary Bangalore East was held on 02/07/2019 where the then prospective rotaractors of RBE gathered to celebrate the conceptualisation of the club! 

@@ -31,7 +31,7 @@ layout: page
                         {% assign author = site.data.info.authors[page.author] %}
                         <div class="single-bio">
                             <div class="single-bio-img">
-                                <img src="{% if author.image %}{% if author.image contains "://" %}{{ author.image }}{% else %}{{ author.image | relative_url }}{% endif %}{% else %}{{site.baseurl}}/images/rbe.png{% endif %}" />
+                                <img src="{% if author.image %}{% if author.image contains "://" %}{{ author.image }}{% else %}{{ author.image | relative_url }}{% endif %}{% else %}{{site.baseurl}}/img/logo.png{% endif %}" />
                             </div>
                             <div class="single-bio-text">
                                 <h3>{{ author.display_name }}</h3>

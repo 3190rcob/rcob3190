@@ -6,7 +6,7 @@ layout: page
         <div class="container">
             <div class="section-header text-center">
                 <p>Our Initiatives</p>
-                <h2>Latest updates on our activities & Initiatives</h2>
+                <h2>{% if page.type == "year" %}Our Initiatives during the Year: {{ page.date | date: "%Y"}}{% elsif page.type == "month" %}Our Initiatives during the month of {{ page.date | date: "%B %Y"}}{% elsif page.type == "day" %}Our Initiatives on {{ page.date | date: "%d %B %Y"}}{% elsif page.type == "tag" %}Our Initiatives tagged '{{ page.title | capitalize | replace: "-"," "}}'{% elsif page.type == "category" %}Our {{ page.title | capitalize | replace: "-"," "}} Initiatives{% else %}Latest updates on our activities & Initiatives{% endif %}</h2>
             </div>
             <div class="row justify-content-around">
                 {% for post in page.posts %}

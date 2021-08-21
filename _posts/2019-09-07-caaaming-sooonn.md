@@ -3,7 +3,7 @@ layout: post
 title:  "CAAAMING SOOONN!!!" 
 date:   2019-09-07
 image: /img/blog-3.jpg
-author: rbe
+author: rcob
 categories: [International-Service]
 tags: [campaigns, hosting]
 description: Caaaming Sooonn!!! is an innovative game of Hextris launched with an aim to promote the social channels of Rotaract Bangalore East.

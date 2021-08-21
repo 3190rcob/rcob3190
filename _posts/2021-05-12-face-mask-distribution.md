@@ -3,7 +3,7 @@ layout: post
 title: Face Mask Distribution
 date: 2021-05-12
 image: /img/blog-3.jpg
-author: rbe
+author: rcob
 categories:
   - Community-Service
 tags:

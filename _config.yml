@@ -1,14 +1,14 @@
 
 # Site settings
 title: Rotaract Club of Banashankari
-subtitle: "Unite . Rise . Empower"
+subtitle: "United to Conquer"
 url: "https://rcob3190.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 timezone: Asia/Kolkata
 
-description: Z
-og_img: /images/ogimage.png
+description: Rotaract Club of Banashankari is a Community Based club located in Bangalore belonging to Rotary International District 3190.
+og_img: /img/og_img.png
 
 # Theme Colour: ff9000
 # Build settings
@@ -19,7 +19,7 @@ paginate: 9
 paginate_path: initiatives/page-:num/
 
 # Google analytics
-google_tracking_id: ""
+google_tracking_id: "G-967N04M8XR"
 
 plugins:
   - jekyll-sitemap

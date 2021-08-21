@@ -45,7 +45,7 @@ fnav:
 
 carousel:
   - headline: Rotaract Club of Banashankari
-    image: /img/carousel1.jpeg
+    image: /img/uploads/carousel1.jpeg
     brief: Serving the Community since 2015
     buttons: 
       text1: Join Us
@@ -53,7 +53,7 @@ carousel:
       vidtext: Our Journey
       vidid: UenRLqo5Y64
   - headline: United to Conquer
-    image: /img/carousel2.jpeg
+    image: /img/uploads/carousel2.jpeg
     brief:
     buttons: 
       text1: Join Us
@@ -61,7 +61,7 @@ carousel:
       vidtext: Our Journey
       vidid: UenRLqo5Y64
   - headline: Bringing smiles to millions
-    image: /img/carousel3.jpeg
+    image: /img/uploads/carousel3.jpeg
     brief: 
     buttons: 
       text1: Join Us
@@ -72,7 +72,7 @@ carousel:
 about:
   title: Learn About Us
   headline: Worldwide non-profit charity organization
-  image: /img/about.jpg
+  image: /img/uploads/about.jpeg
   tabs:
     - title: About
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae pellentesque turpis. Donec in hendrerit dui, vel blandit massa. Ut vestibulum suscipit cursus. Cras quis porta nulla, ut placerat risus. Aliquam nec magna eget velit luctus dictum. Phasellus et felis sed purus tristique dignissim. Morbi sit amet leo at purus accumsan pellentesque. Vivamus fermentum nisi vel dapibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -127,22 +127,22 @@ awards:
   - title: Awards ABC XYZ TTYL
     year: 2019
     org: Rotaract 3190
-    image: /img/causes-1.jpg
+    image: /img/blog-1.jpg
     brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
   - title: Awards ABC XYZ TTYL
     year: 2019
     org: Rotaract 3190
-    image: /img/causes-2.jpg
+    image: /img/blog-2.jpg
     brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
   - title: Awards ABC XYZ TTYL
     year: 2019
     org: Rotaract 3190
-    image: /img/causes-3.jpg
+    image: /img/blog-3.jpg
     brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
   - title: Awards ABC XYZ TTYL
     year: 2019
     org: Rotaract 3190
-    image: /img/causes-4.jpg
+    image: /img/blog-2.jpg
     brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
 
 # testimonials:
@@ -164,7 +164,7 @@ awards:
 #     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
 
 authors:
-  rbe:
-    display_name: Rotaract Bangalore East
-    image: /img/user.jpg
-    description: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER.
+  rcob:
+    display_name: Rotaract Club of Banashankari
+    image: /img/logo.png
+    description: United to Conquer
