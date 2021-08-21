@@ -51,13 +51,16 @@
         <div class="sidebar-widget">
             <h2 class="widget-title">Tags Cloud</h2>
             <div class="tag-widget">
-                <a href="">National</a>
-                <a href="">International</a>
-                <a href="">Economics</a>
-                <a href="">Politics</a>
-                <a href="">Lifestyle</a>
-                <a href="">Technology</a>
-                <a href="">Trades</a>
+                {% assign tags_list = site.tags %}
+                {% if tags_list.first[0] == null %}
+                {% for tag in tags_list %}
+                <a href="{{ site.baseurl }}/initiatives/tag-{{ tag }}">{{ tag | capitalize | replace: "-"," "}}</a>
+                {% endfor %}
+                {% else %}
+                {% for tag in tags_list %}
+                <a href="{{ site.baseurl }}/initiatives/tag-{{ tag[0] }}">{{ tag[0] | capitalize | replace: "-"," "}}</a>
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
     </div>
