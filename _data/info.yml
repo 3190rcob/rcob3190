@@ -18,15 +18,15 @@ nav:
     url: /events
   - title: Initiatives 
     url: /initiatives
-  - title: Contact
-    url: /contact
+  - title: Join
+    url: /join
 
 fnav:
   popularlinks:
     - title: About Us
       url: /about
-    - title: Contact Us
-      url: /contact
+    - title: Join Us
+      url: /join
     - title: Our Events
       url: /events
     - title: Latest Updates 
@@ -124,26 +124,41 @@ factcounter:
       dollar_plus: plus
 
 awards:
-  - title: Awards ABC XYZ TTYL
-    year: 2019
+  - title: Best Charter Club
+    year: 2015 - 2016
     org: Rotaract 3190
-    image: /img/blog-1.jpg
-    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
-  - title: Awards ABC XYZ TTYL
-    year: 2019
+    image: /img/uploads/award-best-charter.jpeg
+    brief:
+  - title: Awards Chair Recognition
+    year: 2018
     org: Rotaract 3190
-    image: /img/blog-2.jpg
-    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
-  - title: Awards ABC XYZ TTYL
-    year: 2019
+    image: /img/uploads/award-bhuvanrecognition.png
+    brief: Grammy award winner, Ricky Cage presenting the award to our Charter President
+  - title: Rotary International Citation
+    year: 2015 - 2016
+    org: Rotary International
+    image: /img/uploads/award-citation1.jpeg
+    brief: Very first RI Citation of Rotaract Club of Banashankari
+  - title: Best Rotary Rotaract Relationship
+    year: 2015 - 2016
     org: Rotaract 3190
-    image: /img/blog-3.jpg
-    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
-  - title: Awards ABC XYZ TTYL
-    year: 2019
-    org: Rotaract 3190
-    image: /img/blog-2.jpg
-    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
+    image: /img/uploads/award-rr.jpeg
+    brief: 
+  - title: Highest Number of Gathered for Trek
+    year: 2018 - 2019
+    org: Asia Book of Records
+    image: /img/uploads/award-asiabook.jpeg
+    brief: Asia Book of Records for Megatrek v3 for gathering 2500 members for a trek
+  - title: Highest Number of Gathered for Trek
+    year: 2017 - 2018
+    org: India Book of Records
+    image: /img/uploads/award-indiarr.png
+    brief: India Book of Records for Megatrek V2.0 for gathering 2100 members for a trek
+  - title: Best Club Service Project
+    year: 2017 - 2018
+    org: RSAMDIO
+    image: /img/uploads/award-rsaclubservice.png
+    brief: Roar Award from RSAMDIO for Best Club Service Project through South Asia for Megatrek
 
 # testimonials:
 #   - name: Rtr. ABC

@@ -13,6 +13,26 @@ permalink: events
                 </div>
                 <div class="row justify-content-around">
                     
+                    <div class="col-lg-6">
+                        <div class="event-item">
+                            <img src="{{site.baseurl}}/img/uploads/megatrek.png" alt="Megatrek">
+                            <div class="event-content">
+                                <div class="event-meta">
+                                    <p><i class="fa fa-calendar-alt"></i>Sep 2021</p>
+                                    <p><i class="far fa-clock"></i>TBA</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>TBA</p>
+                                </div>
+                                <div class="event-text">
+                                    <h3>MegaTrek 5.0</h3>
+                                    <p>
+                                        Get ready for the biggest award winning Club Service event
+                                    </p>
+                                    <a class="btn btn-custom">Coming Soon</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     {% assign events = site.events | sort: 'start' %}
                     {% capture now %}{{ site.time | date: '%Y%m%d' | plus: 0 }}{%- endcapture %}
     
