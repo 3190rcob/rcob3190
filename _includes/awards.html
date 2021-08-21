@@ -1,0 +1,28 @@
+    <!-- Causes Start -->
+    <div class="causes">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Our Recognitions</p>
+                <h2>Let's know about recognitions from around the world</h2>
+            </div>
+            <div class="owl-carousel causes-carousel">
+                {% for award in site.data.info.awards %}
+                <div class="causes-item">
+                    <div class="causes-img">
+                        <img src="{{award.image | relative_url}}" alt="{{award.title}}">
+                    </div>
+                    <br><br>
+                    <div class="causes-text">
+                        <h3>{{award.title}}</h3>
+                        <p>{{award.brief}}</p>
+                    </div>
+                    <div class="causes-btn">
+                        <a class="btn btn-custom">{{award.year}}</a>
+                        <a class="btn btn-custom">{{award.org}}</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- Causes End -->

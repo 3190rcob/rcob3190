@@ -28,12 +28,8 @@ plugins:
   - jekyll-archives
 
 collections:
-  causes:
-    output: true
-    permalink: /causes/:path/
   events:
     output: true
-    permalink: /events/:path/
 
 compress_html:
   clippings: []

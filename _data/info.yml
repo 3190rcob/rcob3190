@@ -1,13 +1,13 @@
 email: info@rcob3190.org
-phone: +91 85537 88515
+phone: +91 78920 65085
 
 location: Bangalore, India
 
 site_social:
-  twitter: https://twitter.com/3190rbe
-  facebook-f: https://www.facebook.com/3190rbe/
-  linkedin-in: https://www.linkedin.com/company/3190rbe/
-  instagram: https://www.instagram.com/3190rbe/
+  twitter: ""
+  facebook-f: ""
+  linkedin-in: ""
+  instagram: https://www.instagram.com/rcob_3190/
 
 nav:
   - title: Home
@@ -125,40 +125,58 @@ areasoffocus:
 factcounter:
   image: /img/facts.jpg
   facts:
-    - text: Countries
-      icon: flaticon-home
-      value: 150
-      dollar_plus: plus
     - text: Volunteers
       icon: flaticon-charity
-      value: 400
+      value: 100
       dollar_plus: plus
-    - text: Our Goal
+    - text: Initiatives
       icon: flaticon-kindness
+      value: 250
+      dollar_plus: plus
+    - text: Reach
+      icon: flaticon-social-care
       value: 10000
-      dollar_plus: dollar
-    - text: Raised
-      icon: flaticon-donation
-      value: 5000
-      dollar_plus: dollar
+      dollar_plus: plus
 
-testimonials:
-  - name: Rtr. ABC
-    affiliation: Founder, XYZ
-    image: /img/testimonial-1.jpg
-    message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-  - name: Rtr. ABC
-    affiliation: Founder, XYZ
-    image: /img/testimonial-2.jpg
-    message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-  - name: Rtr. ABC
-    affiliation: Founder, XYZ
-    image: /img/testimonial-3.jpg
-    message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-  - name: Rtr. ABC
-    affiliation: Founder, XYZ
-    image: /img/testimonial-4.jpg
-    message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
+awards:
+  - title: Awards ABC XYZ TTYL
+    year: 2019
+    org: Rotaract 3190
+    image: /img/causes-1.jpg
+    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
+  - title: Awards ABC XYZ TTYL
+    year: 2019
+    org: Rotaract 3190
+    image: /img/causes-2.jpg
+    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
+  - title: Awards ABC XYZ TTYL
+    year: 2019
+    org: Rotaract 3190
+    image: /img/causes-3.jpg
+    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
+  - title: Awards ABC XYZ TTYL
+    year: 2019
+    org: Rotaract 3190
+    image: /img/causes-4.jpg
+    brief: Lorem ipsum dolor sit amet elit. Phasell nec pretium mi. Curabit facilis ornare velit non vulputa
+
+# testimonials:
+#   - name: Rtr. ABC
+#     affiliation: Founder, XYZ
+#     image: /img/testimonial-1.jpg
+#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
+#   - name: Rtr. ABC
+#     affiliation: Founder, XYZ
+#     image: /img/testimonial-2.jpg
+#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
+#   - name: Rtr. ABC
+#     affiliation: Founder, XYZ
+#     image: /img/testimonial-3.jpg
+#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
+#   - name: Rtr. ABC
+#     affiliation: Founder, XYZ
+#     image: /img/testimonial-4.jpg
+#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
 
 authors:
   rbe:

@@ -10,7 +10,7 @@
                             <p><i class="fa fa-envelope"></i>{{site.data.info.email}}</p>
                             <div class="footer-social">
                                 {% for social in site.data.info.site_social %}
-                                {% if social[1] %}
+                                {% if social[1] != "" %}
                                 <a class="btn btn-custom" href="{{ social[1] }}" target="_blank"><i class="fab fa-{{ social[0] }}"></i></a>
                                 {% endif %}
                                 {% endfor %}
@@ -51,7 +51,7 @@
                         <p>&copy; <a href="https://www.instagram.com/rcob_3190/" target="_blank">Rotaract Club of Banashankari</a>, All Right Reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <p><i class="fa fa-paint-brush"></i> <a href="https://htmlcodex.com" target="_blank">HTML Codex</a> - <i class="fa fa-code"></i> <a href="https://zeospec.com/" target="_blank">ZeoSpec</a></p>
+                        <p><a href="https://htmlcodex.com" target="_blank"><i class="fa fa-paint-brush"></i></a> - <a href="https://zeospec.com/" target="_blank"><i class="fa fa-code"></i></a></p>
                     </div>
                 </div>
             </div>

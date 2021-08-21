@@ -1,65 +1,9 @@
 members:
-  - name: Rtr. ABC XYZ
+  - name: Rtr. Anuja Torvi
     role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-1.jpg
-  - name: Rtr. ABC XYZ
+    riid: 3190
+    image: /img/members/anuja.jpeg
+  - name: Rtr. Mahantesh S
     role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-2.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-3.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-4.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-1.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-2.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-3.jpg
-  - name: Rtr. ABC XYZ
-    role: President
-    social:
-      twitter: "https://twitter.com/ZeoSpec"
-      facebook: "https://www.facebook.com/zeospec/"
-      linkedin: "https://www.linkedin.com/in/zeospec/"
-      instagram: "https://www.instagram.com/ZeoSpec/"
-    image: /img/team-4.jpg
+    riid:
+    image: /img/members/anuja.jpeg
