@@ -14,12 +14,10 @@ nav:
     url: /
   - title: About
     url: /about
-  - title: Causes
-    url: /causes
   - title: Events
     url: /events
-  - title: Blog 
-    url: /blog/
+  - title: Initiatives 
+    url: /initiatives
   - title: Dropdown
     subnav:
       - title: Detail Page 
@@ -41,12 +39,11 @@ fnav:
       url: /about
     - title: Contact Us
       url: /contact
-    - title: Our Causes
-      url: /causes
     - title: Our Events
       url: /events
     - title: Latest Updates 
-      url: /blog/
+      url: /initiatives
+
   gettoknow:
     - title: Rotaract
       url: https://www.rotary.org/en/get-involved/rotaract-clubs

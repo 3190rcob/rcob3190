@@ -1,0 +1,20 @@
+---
+layout: page
+title: Initiatives
+---     
+    <!-- Blog Start -->
+    <div class="blog">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Our Initiatives</p>
+                <h2>Latest updates on our activities & Initiatives</h2>
+            </div>
+            <div class="row justify-content-around">
+            {% for post in paginator.posts %}
+                {% include postbox.html %}
+            {% endfor %}
+            </div>
+            {% include pagination.html %}
+        </div>
+    </div>
+    <!-- Blog End -->

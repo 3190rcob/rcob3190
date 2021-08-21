@@ -1,0 +1,17 @@
+<div class="col-lg-4">
+    <div class="blog-item">
+        <div class="blog-img">
+            <img src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ post.image | relative_url }}{% endif %}" alt="{{post.title}}">
+        </div>
+        <div class="blog-text">
+            <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+            <p>
+                {{post.description | strip_html | truncate: 105 }}
+            </p>
+        </div>
+        <div class="blog-meta">
+            <p><i class="fa fa-calendar"></i><a>{{ post.date | date: '%d %b %Y' }}</a></p>
+            <p><i class="fa fa-eye"></i><a href="{{post.url}}">Read More</a></p>
+        </div>
+    </div>
+</div>

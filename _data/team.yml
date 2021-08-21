@@ -5,5 +5,11 @@ members:
     image: /img/members/anuja.jpeg
   - name: Rtr. Mahantesh S
     role: President
-    riid:
+    riid: ""
     image: /img/members/anuja.jpeg
+
+stars:
+  - name: Rtr. Amulya Shetty
+    role: July 2021
+    riid: ""
+    image: /img/members/amulya.jpeg

@@ -2,7 +2,7 @@
 layout: post
 title: Face Mask Distribution
 date: 2021-05-12
-image: /images/uploads/2021maskdonation5.png
+image: /img/blog-3.jpg
 author: rbe
 categories:
   - Community-Service
