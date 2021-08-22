@@ -9,7 +9,7 @@ backend:
 media_folder: "img/uploads/" # Folder where user uploaded files should go
 site_url: https://rcob3190.org/
 display_url: rcob3190.org
-logo_url: https://rcob.org/img/logo.png
+logo_url: https://rcob3190.org/img/logo.png
 
 collections: # A list of collections the CMS should be able to edit 
   - label: "RCoB Websiet Info"

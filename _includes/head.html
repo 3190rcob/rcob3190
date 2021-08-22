@@ -53,6 +53,10 @@
 
     <!-- Template Stylesheet -->
     <link href="{{site.baseurl}}/css/style.css" rel="stylesheet">
+    
+    {% if page.url == "/" %}
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
 
     {% if site.google_tracking_id %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
