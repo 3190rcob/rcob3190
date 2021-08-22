@@ -36,10 +36,13 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
-                            <form>
-                                <input class="form-control" placeholder="Email goes here">
-                                <button class="btn btn-custom">Submit</button>
-                                <label>Don't worry, we don't spam!</label>
+                            <iframe name="hidden_iframe2" id="hidden_iframe" style="display:none;"
+                            onload="if(submission)  {window.location='/thank_you/';}"></iframe>
+                            
+                            <form action="https://docs.google.com/forms/d/e/1FAIpQLSeUdupcLEU620s46INSLUiORedwocDioiBC29qfa7HqMhKC5w/formResponse" target="hidden_iframe2" onsubmit="submission=true;" method="POST">
+                                <input type="email" name="entry.348814949" class="form-control" placeholder="Email goes here" required>
+                                <button class="btn btn-custom">Subscribe</button>
+                                <label>Hear about our laterst updates!</label>
                             </form>
                         </div>
                     </div>
