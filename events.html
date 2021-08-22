@@ -54,7 +54,7 @@ permalink: events
                                     <p>
                                         {{event.brief}}
                                     </p>
-                                    <a class="btn btn-custom" href="{% if event.button_url contains "://" %}{{ event.button_url }}{% else %}{{ event.button_url | relative_url }}{% endif %}" {% if event.button_url contains "://" %}target="_blank"{% endif %}>{{event.button_text}}</a>
+                                    <a class="btn btn-custom" {% if event.button_url != "" %}href="{% if event.button_url contains "://" %}{{ event.button_url }}{% else %}{{ event.button_url | relative_url }}{% endif %}" {% if event.button_url contains "://" %}target="_blank"{% endif %}{% endif %}>{{event.button_text}}</a>
                                 </div>
                             </div>
                         </div>

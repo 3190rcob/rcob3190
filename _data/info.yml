@@ -1,7 +1,7 @@
-email: info@rcob3190.org
-phone: +91 78920 65085
-
-location: Bangalore, India
+contact:
+  email: info@rcob3190.org
+  phone: +91 78920 65085
+  location: Bangalore, India
 
 site_social:
   twitter: ""
@@ -31,7 +31,6 @@ fnav:
       url: /events
     - title: Latest Updates 
       url: /initiatives
-
   gettoknow:
     - title: Rotaract
       url: https://www.rotary.org/en/get-involved/rotaract-clubs
@@ -42,14 +41,13 @@ fnav:
     - title: Rotary 3190
       url: https://www.facebook.com/rotarydistrict3190/
 
-
 carousel:
   - headline: Rotaract Club of Banashankari
     image: /img/uploads/carousel1.jpeg
     brief: Serving the Community since 2015
     buttons: 
       text1: Join Us
-      target1: https://forms.gle/ZZpF9J31FFJUYruk8
+      target1: /join
       vidtext: Our Journey
       vidid: UenRLqo5Y64
   - headline: United to Conquer
@@ -57,7 +55,7 @@ carousel:
     brief:
     buttons: 
       text1: Join Us
-      target1: https://forms.gle/ZZpF9J31FFJUYruk8
+      target1: /join
       vidtext: Our Journey
       vidid: UenRLqo5Y64
   - headline: Bringing smiles to millions
@@ -65,7 +63,7 @@ carousel:
     brief: 
     buttons: 
       text1: Join Us
-      target1: https://forms.gle/ZZpF9J31FFJUYruk8
+      target1: /join
       vidtext: Our Journey
       vidid: UenRLqo5Y64
 
@@ -76,10 +74,6 @@ about:
   tabs:
     - title: About
       content: <strong>Rotaract Club of Banashankari</strong> is a community-based club chartered on <strong>22 July 2015</strong> by <strong>Rtr. Bhuvan Raghvendra Yadalam</strong>. We are a group of young lads united to fight against polio, Malnourishment and illiteracy amongst our community and create a positive change.
-    # - title: Mission
-    #   content: Sed tincidunt, magna ut vehicula volutpat, turpis diam condimentum justo, posuere congue turpis massa in mi. Proin ornare at massa at fermentum. Nunc aliquet sed nisi iaculis ornare. Nam semper tortor eget est egestas, eu sagittis nunc sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent bibendum sapien sed purus molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    # - title: Vision
-    #   content: Aliquam dolor odio, mollis sed feugiat sit amet, feugiat ut sapien. Nunc eu dignissim lorem. Suspendisse at hendrerit enim. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed condimentum semper turpis vel facilisis. Nunc vel faucibus orci. Mauris ut mauris rhoncus, efficitur nisi at, venenatis quam. Praesent egestas pretium enim sit amet finibus. Curabitur at erat molestie, tincidunt lorem eget, consequat ligula.
 
 areasoffocus:
   title: What We Do?
@@ -160,23 +154,7 @@ awards:
     image: /img/uploads/award-rsaclubservice.png
     brief: Roar Award from RSAMDIO for Best Club Service Project through South Asia for Megatrek
 
-# testimonials:
-#   - name: Rtr. ABC
-#     affiliation: Founder, XYZ
-#     image: /img/testimonial-1.jpg
-#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-#   - name: Rtr. ABC
-#     affiliation: Founder, XYZ
-#     image: /img/testimonial-2.jpg
-#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-#   - name: Rtr. ABC
-#     affiliation: Founder, XYZ
-#     image: /img/testimonial-3.jpg
-#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
-#   - name: Rtr. ABC
-#     affiliation: Founder, XYZ
-#     image: /img/testimonial-4.jpg
-#     message: We the members of Rotaract Bangalore East (Easterners) follow the motto UNITE to RISE and EMPOWER. 
+testimonials:
 
 authors:
   rcob:

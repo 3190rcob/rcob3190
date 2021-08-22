@@ -1,0 +1,180 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (master by default)
+  squash_merges: true
+
+# This line should *not* be indented
+# publish_mode: editorial_workflow
+
+media_folder: "img/uploads/" # Folder where user uploaded files should go
+site_url: https://rcob3190.org/
+display_url: rcob3190.org
+logo_url: https://rcob.org/img/logo.png
+
+collections: # A list of collections the CMS should be able to edit 
+  - label: "RCoB Websiet Info"
+    name: "rcob"
+    editor:
+      preview: false
+    files:
+      - label: "RCoB | Info"
+        name: "rcob"
+        file: "_data/info.yml"
+        fields:
+          - label: Contact Information
+            name: contact
+            widget: object
+            fields:
+              - {label: "Club Email ID", name: "email", widget: "string", default: ""}
+              - {label: "Phone Number", name: "phone", widget: "string", default: ""}
+              - {label: "Club Location / Address", name: "location", widget: "string", default: ""}
+          - label: Social Media Links
+            name: site_social
+            widget: object
+            fields:
+              - {label: "Twitter Handle Link", name: "twitter", widget: "string", default: "", required: false}
+              - {label: "Facebook Profile Link", name: "facebook-f", widget: "string", default: "", required: false}
+              - {label: "Linkedin Profile Link", name: "linkedin-in", widget: "string", default: "", required: false}
+              - {label: "Instagram Profile Link", name: "instagram", widget: "string", default: "", required: false}
+          - label: Welcome Sliders
+            name: carousel
+            widget: list
+            fields:
+              - {label: "Headline", name: "headline", widget: "string", default: ""}
+              - {label: "Image (1366 * 800)", name: "image", widget: "image"}
+              - {label: "Brief Text", name: "brief", widget: "markdown", required: false}
+              - label: Buttons
+                name: buttons
+                widget: object
+                fields:
+                  - {label: "Text for Button 1", name: "text1", widget: "string", default: ""}
+                  - {label: "Target for Button 1", name: "target1", widget: "string", default: ""}
+                  - {label: "Text for Video Button", name: "vidtext", widget: "string", default: ""}
+                  - {label: "Youtube video ID", name: "vidid", widget: "string", default: ""}
+          - label: About Section
+            name: about
+            widget: object
+            fields:
+              - {label: "Section Title", name: "title", widget: "string", default: ""}
+              - {label: "Section headline", name: "headline", widget: "string", default: ""}
+              - {label: "Image (600 * 700)", name: "image", widget: "image"}
+              - label: Tabs
+                name: tabs
+                widget: list
+                fields:
+                  - {label: "Tab Title", name: "title", widget: "string", default: ""}
+                  - {label: "Tab Content", name: "content", widget: "markdown"}
+          - label: Areas of Focus
+            name: areasoffocus
+            widget: object
+            fields:
+              - {label: "Section Title", name: "title", widget: "string", default: ""}
+              - {label: "Section headline", name: "headline", widget: "string", default: ""}
+              - label: Areas
+                name: areas
+                widget: list
+                fields:
+                  - {label: "Focus area Title", name: "title", widget: "string", default: ""}
+                  - {label: "Focus area Icon", name: "icon", widget: "string", default: ""}
+                  - {label: "Focus area Brief", name: "description", widget: "markdown"}
+          - label: Fact Counter
+            name: factcounter
+            widget: object
+            fields:
+              - {label: "Image (1366 * 600)", name: "image", widget: "image"}
+              - label: Facts
+                name: facts
+                widget: list
+                fields:
+                  - {label: "Fact Text", name: "text", widget: "string", default: ""}
+                  - {label: "Fact Icon", name: "icon", widget: "string", default: ""}
+                  - label: "Fact Counter Value"
+                    name: "value"
+                    widget: "number"
+                    default: 0
+                    value_type: "int"
+                    step: 1
+                  - label: "Fact Counter Sign"
+                    name: "dollar_plus"
+                    widget: "select"
+                    multiple: false
+                    required: true
+                    options:
+                      - { label: "Plus", value: "plus" }
+                      - { label: "Dollar", value: "dollar" }
+          - label: Awards & Recognitions
+            name: awards
+            widget: list
+            fields:
+              - {label: "Award Title", name: "title", widget: "string", default: ""}
+              - {label: "Year of Award", name: "year", widget: "string", default: ""}
+              - {label: "Presenting Org", name: "org", widget: "string", default: ""}
+              - {label: "Image (400 * 300)", name: "image", widget: "image"}
+              - {label: "Brief Text", name: "brief", widget: "markdown", required: false}
+          - label: Testimonials
+            name: testimonials
+            widget: list
+            fields:
+              - {label: "Name of the Person", name: "name", widget: "string", default: ""}
+              - {label: "Title / Affiliation of the Person", name: "affiliation", widget: "string", default: ""}
+              - {label: "Image (100 * 100 or 1:1)", name: "image", widget: "image"}
+              - {label: "Message from the Person", name: "message", widget: "markdown"}
+  - label: "Events"
+    name: "events"
+    folder: "_events"
+    create: true # Allow users to create new documents in this collection
+    sortable_fields: ['title','start','end']
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Event Title", name: "title", widget: "string"}
+      - label: "Start time"
+        name: "start"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD" 
+        time_format: "HH:mm"
+        format: "YYYY-MM-DD HH:mm"
+        picker_utc: false
+      - label: "End time"
+        name: "end"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD" 
+        time_format: "HH:mm"
+        format: "YYYY-MM-DD HH:mm"
+        picker_utc: false
+        required: false
+      - {label: "Venue", name: "venue", widget: "string"}
+      - {label: "Button Text", name: "button_text", widget: "string"}
+      - {label: "Button Url", name: "button_url", widget: "string"}
+      - {label: "Image (600 * 400) ", name: "image", widget: "image"}
+      - {label: "Brief Overview", name: "brief", widget: "markdown"}
+  - label: "Initiatiaves"
+    name: "Initiatiaves"
+    folder: "_posts"
+    create: true # Allow users to create new documents in this collection
+    sort: "date:desc"
+    sortable_fields: ['title','date']
+    slug: "{{date}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
+      - {label: "Image (400 * 300)", name: "image", widget: "image"}
+      - {label: "Author", name: "author", widget: "hidden", default: "rcob"}
+      - label: "Avenues / Categories"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - { label: "Club Service", value: "Club-Service" }
+          - { label: "Community Service", value: "Community-Service" }
+          - { label: "International Service", value: "International-Service" }
+          - { label: "Professional Development", value: "Professional-Development" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        allow_add: true
+        default: ["hosting, participating, volunteering"]
+        required: false
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
