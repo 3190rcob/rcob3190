@@ -18,7 +18,7 @@ collections: # A list of collections the CMS should be able to edit
       preview: false
     files:
       - label: "Team, members & Star Rotaractors"
-        name: "members"
+        name: "team"
         file: "_data/team.yml"
         fields:
           - label: Board & Members
