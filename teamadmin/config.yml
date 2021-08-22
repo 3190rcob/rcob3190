@@ -12,25 +12,32 @@ display_url: rcob3190.org
 logo_url: https://rcob3190.org/img/logo.png
 
 collections: # A list of collections the CMS should be able to edit 
-  - label: "Team | RCoB"
-    name: "members"
-    file: "_data/team.yml"
+  - label: "Rotaract Club of Banashankari"
+    name: "rcob"
     editor:
       preview: false
-    fields:
-      - label: Board - Team Members
-        name: members
-        widget: list
+    files:
+      - label: "Board & Members"
+        name: "members"
+        file: "_data/team.yml"
         fields:
-          - {label: "Name", name: "name", widget: "string", default: ""}
-          - {label: "Role", name: "role", widget: "string", default: ""}
-          - {label: "RI ID", name: "riid", widget: "string", default: ""}
-          - {label: "Image (300*400)", name: "image", widget: "image"}
-      - label: Star Rotaractors
-        name: stars
-        widget: list
+          - label: Board & Members
+            name: members
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: ""}
+              - {label: "Role", name: "role", widget: "string", default: ""}
+              - {label: "RI ID", name: "riid", widget: "string", default: ""}
+              - {label: "Image (300*400)", name: "image", widget: "image"}
+      - label: "Star Rotaractors"
+        name: "members"
+        file: "_data/team.yml"
         fields:
-          - {label: "Name", name: "name", widget: "string", default: ""}
-          - {label: "Role", name: "role", widget: "string", default: ""}
-          - {label: "RI ID", name: "riid", widget: "string", default: ""}
-          - {label: "Image (300*400)", name: "image", widget: "image"}
+          - label: Star Rotaractors
+            name: stars
+            widget: list
+            fields:
+              - {label: "Name", name: "name", widget: "string", default: ""}
+              - {label: "Role", name: "role", widget: "string", default: ""}
+              - {label: "RI ID", name: "riid", widget: "string", default: ""}
+              - {label: "Image (300*400)", name: "image", widget: "image"}
