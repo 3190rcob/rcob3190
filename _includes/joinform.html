@@ -1,0 +1,62 @@
+    <!-- Contact Start -->
+    <div class="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Become a Volunteer</p>
+                <h2>Let’s make a difference in the lives of others</h2>
+            </div>
+            <div class="contact-img">
+                <img src="{{site.baseurl}}/img/join.jpeg" alt="Join Us">
+            </div>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+                            onload="if(submission)  {window.location='/thankyou/';}"></iframe>
+
+            <div class="contact-form">
+                    <div id="success"></div>
+                    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfF5wMxMNzwBU5SSf5GR3kpw4kEwMbJ8OmvZnFxCsYCWAqXfw/formResponse" target="hidden_iframe" onsubmit="submission=true;" method="POST" name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="email"  name="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="name" name="entry.1443067165" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" id="address" name="entry.489986683" placeholder="Your Residential Address" required="required" data-validation-required-message="Please enter your Address"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="tel" class="form-control" id="pphone" name="entry.723127436" pattern="[6-9]{1}[0-9]{9}" placeholder="Your WhatsApp Number" required="required" data-validation-required-message="Please enter WhatsApp Number" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="control-group">
+                            <input type="tel" class="form-control" id="sphone" name="entry.1360687495" pattern="[6-9]{1}[0-9]{9}" placeholder="Your Secondary Phone Number" required="required" data-validation-required-message="Please enter WhatsApp Number" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="dob" name="entry.1557889927" onfocus="(this.type='date')" placeholder="Your Date of Birth" required="required" data-validation-required-message="Please enter your Date of Birth" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="bloodgroup"  name="entry.381352267" placeholder="Your Blood Group" required="required" data-validation-required-message="Please enter your Blood Group" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="hobbies" name="entry.1649957537" placeholder="Your Hobbies" required="required" data-validation-required-message="Tell us about your Hobbies" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+
+                        <div class="control-group">
+                            <textarea class="form-control" id="whyrotaract" name="entry.1901451041" placeholder="Why do you want to join Rotaract?" required="required" data-validation-required-message="Tell us why do you want to join Rotaract?"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+    <!-- Contact End -->
