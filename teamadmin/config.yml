@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "RI ID", name: "riid", widget: "string", default: ""}
               - {label: "Image (300*400)", name: "image", widget: "image"}
       - label: "Star Rotaractors"
-        name: "members"
+        name: "stars"
         file: "_data/team.yml"
         fields:
           - label: Star Rotaractors
