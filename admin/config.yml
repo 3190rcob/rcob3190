@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - {label: "Headline", name: "headline", widget: "string", default: ""}
               - {label: "Image (1366 * 800)", name: "image", widget: "image"}
-              - {label: "Brief Text", name: "brief", widget: "markdown", required: false}
+              - {label: "Brief Text", name: "brief", widget: "string", required: false}
               - label: Buttons
                 name: buttons
                 widget: object
@@ -63,7 +63,7 @@ collections: # A list of collections the CMS should be able to edit
                 widget: list
                 fields:
                   - {label: "Tab Title", name: "title", widget: "string", default: ""}
-                  - {label: "Tab Content", name: "content", widget: "markdown"}
+                  - {label: "Tab Content", name: "content", widget: "text"}
           - label: Areas of Focus
             name: areasoffocus
             widget: object
@@ -76,7 +76,7 @@ collections: # A list of collections the CMS should be able to edit
                 fields:
                   - {label: "Focus area Title", name: "title", widget: "string", default: ""}
                   - {label: "Focus area Icon", name: "icon", widget: "string", default: ""}
-                  - {label: "Focus area Brief", name: "description", widget: "markdown"}
+                  - {label: "Focus area Brief", name: "description", widget: "text"}
           - label: Fact Counter
             name: factcounter
             widget: object
@@ -110,7 +110,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Year of Award", name: "year", widget: "string", default: ""}
               - {label: "Presenting Org", name: "org", widget: "string", default: ""}
               - {label: "Image (400 * 300)", name: "image", widget: "image"}
-              - {label: "Brief Text", name: "brief", widget: "markdown", required: false}
+              - {label: "Brief Text", name: "brief", widget: "text", required: false}
           - label: Testimonials
             name: testimonials
             widget: list
@@ -118,13 +118,15 @@ collections: # A list of collections the CMS should be able to edit
               - {label: "Name of the Person", name: "name", widget: "string", default: ""}
               - {label: "Title / Affiliation of the Person", name: "affiliation", widget: "string", default: ""}
               - {label: "Image (100 * 100 or 1:1)", name: "image", widget: "image"}
-              - {label: "Message from the Person", name: "message", widget: "markdown"}
+              - {label: "Message from the Person", name: "message", widget: "text"}
   - label: "Events"
     name: "events"
     folder: "_events"
     create: true # Allow users to create new documents in this collection
     sortable_fields: ['title','start','end']
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Event Title", name: "title", widget: "string"}
       - label: "Start time"
@@ -144,9 +146,9 @@ collections: # A list of collections the CMS should be able to edit
         required: false
       - {label: "Venue", name: "venue", widget: "string"}
       - {label: "Button Text", name: "button_text", widget: "string"}
-      - {label: "Button Url", name: "button_url", widget: "string"}
+      - {label: "Button Url", name: "button_url", widget: "string", required: false}
       - {label: "Image (600 * 400) ", name: "image", widget: "image"}
-      - {label: "Brief Overview", name: "brief", widget: "markdown"}
+      - {label: "Brief Overview", name: "brief", widget: "text"}
   - label: "Initiatiaves"
     name: "Initiatiaves"
     folder: "_posts"
@@ -154,6 +156,8 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc"
     sortable_fields: ['title','date']
     slug: "{{date}}-{{slug}}"
+    editor:
+      preview: false
     fields: # The fields each document in this collection have
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -170,11 +174,11 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Community Service", value: "Community-Service" }
           - { label: "International Service", value: "International-Service" }
           - { label: "Professional Development", value: "Professional-Development" }
-      - label: "Tags"
+      - label: "Tags (Separated by Comma for multiple tags)"
         name: "tags"
         widget: "list"
         allow_add: true
         default: ["hosting, participating, volunteering"]
         required: false
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown", required: false}
