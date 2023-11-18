@@ -7,9 +7,9 @@ backend:
 # publish_mode: editorial_workflow
 
 media_folder: "img/uploads/" # Folder where user uploaded files should go
-site_url: https://rcob3190.org/
-display_url: rcob3190.org
-logo_url: https://rcob3190.org/img/logo.png
+site_url: https://rcob3191.org/
+display_url: rcob3191.org
+logo_url: https://rcob3191.org/img/logo.png
 
 collections: # A list of collections the CMS should be able to edit 
   - label: "RCoB Websiet Info"
