@@ -14,7 +14,7 @@ members:
   - name: Rtr. Amruth B N
     role: Secretary Operations
     riid: "11847657"
-    image: /img/members/amryth.png
+    image: /img/members/2.png
   - name: Rtr. Bhuvan R Y
     role: Treasurer
     riid: "9332069"
@@ -22,7 +22,7 @@ members:
   - name: Rtr. Abhay M S
     role: Sergeant at Arms
     riid: "11847656"
-    image: /img/members/abhay.jpg
+    image: /img/members/9.png
   - name: Rtr. Anuja Torvi
     role: Club Advisor
     riid: "10039715"
@@ -30,15 +30,15 @@ members:
   - name: Rtr. Mariya M D
     role: Club Service Director
     riid: "11847650"
-    image: /img/members/mariya.jpg
+    image: /img/members/6.png
   - name: Rtr. Hemalatha H
     role: Community Service Director
     riid: "11493155"
-    image: /img/members/hema.jpg
+    image: /img/members/10.png
   - name: Rtr. Varun Kumar
     role: Professional Service Director
     riid: "11847654"
-    image: /img/members/varun.jpg
+    image: /img/members/11.png
   - name: Rtr. Abdul Asif
     role: International Service Director
     riid: "9999236"
@@ -46,21 +46,21 @@ members:
   - name: Rtr. Akshay B R
     role: Public Relations Director
     riid: "11247120"
-    image: /img/members/ak.jpg
+    image: /img/members/12.png
   - name: Rtr. Deeksha S
     role: Editorial Director
     riid: "11847664"
-    image: /img/members/deeksha.jpg
+    image: /img/members/deek.png
   - name: Rtr. Vinith N
     role: Membership Co-ordinator
     riid: "11847641"
-    image: /img/members/vinith.jpg
+    image: /img/members/7.png
   - name: Rtr Anitosh Dash
     role: Design and Tech Director
     riid: "11847639"
-    image: /img/members/anitosh.jpg
+    image: /img/members/8.png
   - name: Rtr Meenal
     role: Design and Tech Director
     riid: "11847641"
-    image: /img/members/meen.jpg
+    image: /img/members/3.png
 stars: []
