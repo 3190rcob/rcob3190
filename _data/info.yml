@@ -2,13 +2,31 @@ contact:
   email: info@rcob3191.org
   phone: +91 78920 65085
   location: Bangalore, India
-
-site_social:
-  twitter: ""
-  facebook-f: https://www.facebook.com/rcob3190
-  linkedin-in: ""
-  instagram: https://www.instagram.com/rcob_3190/
-
+carousel:
+  - headline: Rotaract Club of Banashankari
+    image: /img/uploads/carousel1.jpeg
+    brief: Serving the Community since 2015
+    buttons:
+      text1: Join Us
+      target1: /join
+      vidtext: Our Journey
+      vidid: UenRLqo5Y64
+  - headline: United to Conquer
+    image: /img/uploads/carousel2.jpeg
+    brief: null
+    buttons:
+      text1: Join Us
+      target1: /join
+      vidtext: Our Journey
+      vidid: UenRLqo5Y64
+  - headline: Bringing smiles to millions
+    image: /img/uploads/carousel3.jpeg
+    brief: null
+    buttons:
+      text1: Join Us
+      target1: /join
+      vidtext: Our Journey
+      vidid: UenRLqo5Y64
 nav:
   - title: Home
     url: /
@@ -16,91 +34,64 @@ nav:
     url: /about
   - title: Events
     url: /events
-  - title: Initiatives 
+  - title: Initiatives
     url: /initiatives
   - title: Join
     url: /join
-
-fnav:
-  popularlinks:
-    - title: About Us
-      url: /about
-    - title: Join Us
-      url: /join
-    - title: Our Events
-      url: /events
-    - title: Latest Updates 
-      url: /initiatives
-  gettoknow:
-    - title: Rotaract
-      url: https://www.rotary.org/en/get-involved/rotaract-clubs
-    - title: Rotary
-      url: https://www.rotary.org/en
-    - title: Rotaract 3190
-      url: https://www.rotary.org/en/get-involved/rotaract-clubs
-    - title: Rotary 3190
-      url: https://www.facebook.com/rotarydistrict3190/
-
-carousel:
-  - headline: Rotaract Club of Banashankari
-    image: /img/uploads/carousel1.jpeg
-    brief: Serving the Community since 2015
-    buttons: 
-      text1: Join Us
-      target1: /join
-      vidtext: Our Journey
-      vidid: UenRLqo5Y64
-  - headline: United to Conquer
-    image: /img/uploads/carousel2.jpeg
-    brief:
-    buttons: 
-      text1: Join Us
-      target1: /join
-      vidtext: Our Journey
-      vidid: UenRLqo5Y64
-  - headline: Bringing smiles to millions
-    image: /img/uploads/carousel3.jpeg
-    brief: 
-    buttons: 
-      text1: Join Us
-      target1: /join
-      vidtext: Our Journey
-      vidid: UenRLqo5Y64
-
+site_social:
+  twitter: ""
+  facebook-f: https://www.facebook.com/rcob3190
+  linkedin-in: ""
+  instagram: https://www.instagram.com/rcob_3191/
+authors:
+  rcob:
+    display_name: Rotaract Club of Banashankari
+    image: /img/logo.png
+    description: United to Conquer
 about:
   title: Learn About Us
   headline: Rotaract is Worldwide Voluntary organization
   image: /img/uploads/about.jpeg
   tabs:
     - title: About
-      content: <strong>Rotaract Club of Banashankari</strong> is a community-based club chartered on <strong>22 July 2015</strong> by <strong>Rtr. Bhuvan Raghvendra Yadalam</strong>. We are a group of young lads united to fight against polio, Malnourishment and illiteracy amongst our community and create a positive change.
-
+      content: <strong>Rotaract Club of Banashankari</strong> is a community-based
+        club chartered on <strong>22 July 2015</strong> by <strong>Rtr. Bhuvan
+        Raghvendra Yadalam</strong>. We are a group of young lads united to
+        fight against polio, Malnourishment and illiteracy amongst our community
+        and create a positive change.
 areasoffocus:
   title: What We Do?
   headline: We believe that we can save more lifes with you
   areas:
     - title: Promoting peace
       icon: flaticon-social-care
-      description: Rotary encourages conversations to foster understanding within and across cultures.
+      description: Rotary encourages conversations to foster understanding within and
+        across cultures.
     - title: Fighting disease
       icon: flaticon-healthcare
-      description: We educate and equip communities to stop the spread of life-threatening diseases.
+      description: We educate and equip communities to stop the spread of
+        life-threatening diseases.
     - title: Providing clean water, sanitation, and hygiene
       icon: flaticon-water
-      description: We support local solutions to bring clean water, sanitation, and hygiene to more people every day.
+      description: We support local solutions to bring clean water, sanitation, and
+        hygiene to more people every day.
     - title: Saving mothers and children
       icon: flaticon-woman
-      description: We expand access to quality care, so mothers and their children can live and grow stronger.
+      description: We expand access to quality care, so mothers and their children can
+        live and grow stronger.
     - title: Supporting education
       icon: flaticon-education
-      description: We support basic education and literacy, reduce gender disparity in education, and increase adult literacy.
+      description: We support basic education and literacy, reduce gender disparity in
+        education, and increase adult literacy.
     - title: Growing local economies
       icon: flaticon-home
-      description: We carry out service projects that enhance economic and community development and create opportunities for decent and productive work for young and old.
+      description: We carry out service projects that enhance economic and community
+        development and create opportunities for decent and productive work for
+        young and old.
     - title: Protecting the environment
       icon: flaticon-kindness
-      description: We are tackling environmental issues the seriously and working towards betterment of the community around us
-
+      description: We are tackling environmental issues the seriously and working
+        towards betterment of the community around us
 factcounter:
   image: /img/facts.jpg
   facts:
@@ -116,18 +107,18 @@ factcounter:
       icon: flaticon-social-care
       value: 10000
       dollar_plus: plus
-
 awards:
   - title: Best Charter Club
     year: 2015 - 2016
     org: Rotaract 3190
     image: /img/uploads/award-best-charter.jpeg
-    brief:
+    brief: null
   - title: Awards Chair Recognition
     year: 2018
     org: Rotaract 3190
     image: /img/uploads/award-bhuvanrecognition.png
-    brief: Grammy award winner, Ricky Cage presenting the award to our Charter President
+    brief: Grammy award winner, Ricky Cage presenting the award to our Charter
+      President
   - title: Rotary International Citation
     year: 2015 - 2016
     org: Rotary International
@@ -137,7 +128,7 @@ awards:
     year: 2015 - 2016
     org: Rotaract 3190
     image: /img/uploads/award-rr.jpeg
-    brief: 
+    brief: null
   - title: Asia Book of Records
     year: 2018 - 2019
     org: Asia Book of Records
@@ -147,17 +138,31 @@ awards:
     year: 2017 - 2018
     org: India Book of Records
     image: /img/uploads/award-indiarr.png
-    brief: India Book of Records for Megatrek V2.0 for gathering 2100 members for a trek
+    brief: India Book of Records for Megatrek V2.0 for gathering 2100 members for a
+      trek
   - title: Best Club Service Project
     year: 2017 - 2018
     org: RSAMDIO
     image: /img/uploads/award-rsaclubservice.png
-    brief: Roar Award from RSAMDIO for Best Club Service Project through South Asia for Megatrek
-
-testimonials:
-
-authors:
-  rcob:
-    display_name: Rotaract Club of Banashankari
-    image: /img/logo.png
-    description: United to Conquer
+    brief: Roar Award from RSAMDIO for Best Club Service Project through South Asia
+      for Megatrek
+testimonials: null
+fnav:
+  popularlinks:
+    - title: About Us
+      url: /about
+    - title: Join Us
+      url: /join
+    - title: Our Events
+      url: /events
+    - title: Latest Updates
+      url: /initiatives
+  gettoknow:
+    - title: Rotaract
+      url: https://www.rotary.org/en/get-involved/rotaract-clubs
+    - title: Rotary
+      url: https://www.rotary.org/en
+    - title: Rotaract 3190
+      url: https://www.rotary.org/en/get-involved/rotaract-clubs
+    - title: Rotary 3190
+      url: https://www.facebook.com/rotarydistrict3190/
