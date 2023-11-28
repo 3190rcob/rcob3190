@@ -1,87 +1,66 @@
 members:
-  - name: Rtr. Anuja Torvi
+  - name: Rtr. Sangeetha S
     role: President
-    riid: "10039715"
-    image: /img/members/anuja.jpeg
-  - name: Rtr. Mahantesh S
-    role: Immediate Past President
-    riid: "10684045"
-    image: /img/members/mahantesh.jpeg
+    riid: "10510455"
+    image: /img/members/sangeeta.png
   - name: Rtr. Vidhya Ravi
-    role: Secretary Administration
+    role: Immediate Past President
     riid: "11141102"
     image: /img/members/vidya.jpeg
-  - name: Rtr. Srihari N V
+  - name: Rtr. Siddharth T B
+    role: Secretary Administration
+    riid: "11057050"
+    image: /img/members/sid.jpg
+  - name: Rtr. Amruth B N
     role: Secretary Operations
-    riid: "10684804"
-    image: /img/members/srihari.jpeg
-  - name: Rtr. Bhuvan Raghvendra Yadalam
+    riid: "11847657"
+    image: /img/members/amryth.png
+  - name: Rtr. Bhuvan R Y
     role: Treasurer
     riid: "9332069"
     image: /img/members/bhuvan.jpeg
-  - name: Rtr. Aryan N C
+  - name: Rtr. Abhay M S
     role: Sergeant at Arms
-    riid: "10851596"
-    image: /img/members/aryan.jpeg
-  - name: Rtr. Nithya Manjunath
+    riid: "11847656"
+    image: /img/members/abhay.jpg
+  - name: Rtr. Anuja Torvi
     role: Club Advisor
-    riid: "9654596"
-    image: /img/members/nithya.jpeg
-  - name: Rtr. Mahima Verma
+    riid: "10039715"
+    image: /img/members/anuja.jpeg
+  - name: Rtr. Mariya M D
     role: Club Service Director
-    riid: "10684825"
-    image: /img/members/mahima.jpeg
-  - name: Rtr. Kushal M P
-    role: Club Service Co-Director
-    riid: "10606311"
-    image: /img/members/kushal.jpeg
-  - name: Rtr. Anirudh Kulkarni
+    riid: "11847650"
+    image: /img/members/mariya.jpg
+  - name: Rtr. Hemalatha H
     role: Community Service Director
-    riid: "10136399"
-    image: /img/members/anirudh.jpeg
-  - name: Rtr. Kavya Gowda
-    role: Community Service Co-Director
-    riid: "10929144"
-    image: /img/members/kavya.jpeg
-  - name: Rtr. Achutha Kumar
-    role: International Service Director
-    riid: "10280877"
-    image: /img/members/achutha.jpeg
-  - name: Rtr. Yatish J P
-    role: International Service Co-Director
-    riid: "10684804"
-    image: /img/members/yatish.jpeg
-  - name: Rtr. Safina Anjum
+    riid: "11493155"
+    image: /img/members/hema.jpg
+  - name: Rtr. Varun Kumar
     role: Professional Service Director
-    riid: "10231544"
-    image: /img/members/saniya.jpeg
-  - name: Rtr. Supreetha N K
-    role: Professional Service Co-Director
-    riid: "10684804"
-    image: /img/members/supreetha.jpeg
-  - name: Rtr. Abdul Asif R
-    role: Animal Welfare and Wildlife Director
+    riid: "11847654"
+    image: /img/members/varun.jpg
+  - name: Rtr. Abdul Asif
+    role: International Service Director
     riid: "9999236"
     image: /img/members/abdul.jpeg
-  - name: Rtr. Saniya Shariff
-    role: Animal and Wildlife Co-Director
-    riid: "10061139"
-    image: /img/members/saniyas.jpeg
-  - name: Rtr. Dhanyajeeth K
+  - name: Rtr. Akshay B R
     role: Public Relations Director
-    riid: "10928746"
-    image: /img/members/dhanyajeeth.jpeg
-  - name: Rtr. Amulya Shetty
-    role: Public Relations Co-Director
-    riid: "10921463"
-    image: /img/members/amulya.jpeg
-  - name: Rtr. Vibha Premkumar
+    riid: "11247120"
+    image: /img/members/ak.jpg
+  - name: Rtr. Deeksha S
     role: Editorial Director
-    riid: "12345678"
-    image: /img/members/vibha.jpeg
-
-stars:
-  - name: Rtr. Amulya Shetty
-    role: July 2021
-    riid: "10921463"
-    image: /img/members/amulya.jpeg
+    riid: "11847664"
+    image: /img/members/deeksha.jpg
+  - name: Rtr. Vinith N
+    role: Membership Co-ordinator
+    riid: "11847641"
+    image: /img/members/vinith.jpg
+  - name: Rtr Anitosh Dash
+    role: Design and Tech Director
+    riid: "11847639"
+    image: /img/members/anitosh.jpg
+  - name: Rtr Meenal
+    role: Design and Tech Director
+    riid: "11847641"
+    image: /img/members/meen.jpg
+stars: []
