@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Gift a Smile
-date: 2020-12-25
-image: /img/uploads/2020-giftasmile.jpeg
+title: Food Distribution Drive
+date: 2023-09-09
+image: /img/uploads/whatsapp-image-2023-11-29-at-12.47.28.jpeg
 author: rcob
 categories:
   - Community-Service
 tags:
-  - hosting
-description: Gift a Smile an initiative to bring smiles for kids staying slum by donating stationery kids.
+  - Co-Hosting
+description: Food Distribution Drive is a initiative where in the attendees of
+  Nimhans hospital patients will be provided with healthy meals.
 ---
-Christmas bells never ring without spreading happiness and under-privileged kids almost miss out their childhood in these times. We the members of Rotaract Club of Banashankari on the day of Christmas, distributed stationery kits including books, color pens and pencils and much more to kids staying in slum areas near Hoskerhalli, Bangalore which indeed did bring a huge smile on their face.
+Food distribution is frequently organized to supply vital sustenance to individuals and communities experiencing food insecurity and hunger, particularly during periods of crisis or poverty.
+
+In an effort to address this issue and provide a solution, the Rotaract Club of Banashankari, in collaboration with Akshaya Anna Dasoha, has initiated a program to offer food donations to caregivers and family members visiting their relatives admitted to Nimhans and Rajiv Gandhi Cancer Hospital.
