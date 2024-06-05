@@ -27,6 +27,13 @@ carousel:
       target1: /join
       vidtext: Our Journey
       vidid: UenRLqo5Y64
+  - headline: Membership Open Now 24-25!
+    buttons:
+      text1: Join Us!
+      target1: https://forms.gle/aNxLkPkWF2pgBcvp9
+      vidtext: Our Journey
+      vidid: https://forms.gle/aNxLkPkWF2pgBcvp9
+    image: /img/uploads/whatsapp-image-2024-06-05-at-1.13.13-pm.jpeg
 nav:
   - title: Home
     url: /
