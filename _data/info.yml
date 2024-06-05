@@ -11,12 +11,12 @@ carousel:
       target1: /join
       vidtext: Our Journey
       vidid: UenRLqo5Y64
-  - headline: United to Conquer
-    image: /img/uploads/carousel2.jpeg
+  - headline: Join Us Today!
+    image: /img/uploads/whatsapp-image-2024-06-05-at-1.13.13-pm.jpeg
     brief: null
     buttons:
       text1: Join Us
-      target1: /join
+      target1: https://forms.gle/aNxLkPkWF2pgBcvp9
       vidtext: Our Journey
       vidid: UenRLqo5Y64
   - headline: Bringing smiles to millions
